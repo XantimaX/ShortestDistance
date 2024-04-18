@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<link href = "shortd.css" rel = "stylesheet">
+<body>
+
+
+    
+
+        <div class="bigBoxOne">
+            
+            <div class="rowIncrease">
+                <button id="rowIncreaseButton" onclick = "increaseRow()">+</button>
+            </div>
+            
+            <div class="boxTwo">
+                <div class="columnDecrease">
+                    <button id="columnDecreaseButton" onclick = "decreaseColumn()" >-</button>
+                </div>
+                <div class="grid">
+                    <div onclick = "gridButtonClicked(this)" class="buttons"></div>
+                    <div onclick = "gridButtonClicked(this)" class="buttons"></div>
+                    <div onclick = "gridButtonClicked(this)" class="buttons"></div>
+                    <div onclick = "gridButtonClicked(this)" class="buttons"></div>
+                    <div onclick = "gridButtonClicked(this)" class="buttons"></div>
+                    <div onclick = "gridButtonClicked(this)" class="buttons"></div>
+                    <div onclick = "gridButtonClicked(this)" class="buttons"></div>
+                    <div onclick = "gridButtonClicked(this)" class="buttons"></div>
+                    <div onclick = "gridButtonClicked(this)" class="buttons"></div>
+                    <div onclick = "gridButtonClicked(this)" class="buttons"></div>
+                    <div onclick = "gridButtonClicked(this)" class="buttons"></div>
+                    <div onclick = "gridButtonClicked(this)" class="buttons"></div>
+                    <div onclick = "gridButtonClicked(this)" class="buttons"></div>
+                    <div onclick = "gridButtonClicked(this)" class="buttons"></div>
+                    <div onclick = "gridButtonClicked(this)" class="buttons"></div>
+                    <div onclick = "gridButtonClicked(this)" class="buttons"></div>
+                    <div onclick = "gridButtonClicked(this)" class="buttons"></div>
+                    <div onclick = "gridButtonClicked(this)" class="buttons"></div>
+                    <div onclick = "gridButtonClicked(this)" class="buttons"></div>
+                    <div onclick = "gridButtonClicked(this)" class="buttons"></div>
+                    <div onclick = "gridButtonClicked(this)" class="buttons"></div>
+                    <div onclick = "gridButtonClicked(this)" class="buttons"></div>
+                    <div onclick = "gridButtonClicked(this)" class="buttons"></div>
+                    <div onclick = "gridButtonClicked(this)" class="buttons"></div>
+                    <div onclick = "gridButtonClicked(this)" class="buttons"></div>
+                </div>
+
+                <div class="columnIncrease">
+                    <button id="columnIncreaseButton" onclick = "increaseColumn()" >+</button>
+                </div>
+
+            </div>
+            
+            
+            <div class="rowDecrease" onclick = "decreaseRow()">
+                <button id="rowDecreaseButton">-</button>  
+            </div>
+        </div>
+
+    
+    
+    
+    <div class="instructions">
+        <div class="instructionLabel">
+            <button id = "start" onclick='instructionButtonClicked("start")'>StartDest</button>
+            <div class="startDestLine">Click this button to insert Starting point</div>
+        </div>
+        <div class="instructionLabel">
+            <button id = "end"  onclick='instructionButtonClicked("end")'>EndDest</button>
+            <div class="endDestLine">Click this button to insert Ending point</div>
+        </div>
+        <div class="instructionLabel">
+            <button id = "block"  onclick='instructionButtonClicked("block")'>Block</button>
+            <div class="blockLine">Click this button to insert Blocks</div>
+        </div>
+        <div class="instructionLabel">
+            <button id = "reset" onclick = 'instructionButtonClicked("reset")'>Reset</button>
+            <div class="resetLine">Click this button to reset</div>
+        </div>
+    </div>
+</body>
+
+<script src = "shortd.js"></script>
+</html>
